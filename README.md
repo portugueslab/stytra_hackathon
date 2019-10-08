@@ -1,2 +1,2 @@
 # The stytra hackathon!
-Repo with the materials and code for the stytra hackathon.
+Repo with the material and code for the stytra hackathon.
