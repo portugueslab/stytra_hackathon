@@ -37,7 +37,5 @@ List of potential projects, together with the topics they cover.
     - Stytra calibration, PyQt GUI design
 10. Improve replay UX
     - Stytra video display, PyQt GUI design
-
-
-. Implement you own experiment
+11. Implement you new Stytra experiment!
 
