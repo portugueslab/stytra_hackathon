@@ -63,8 +63,8 @@ List of potential projects, together with the topics they cover.
     - Stytra calibration, PyQt GUI design
 
 **10. Improve replay user interface**
-
-    We still have some hope that the replay tool to adjust the stimulus parameters might prove useful in the future - and you could help making this possible!
+   
+   We still have some hope that the replay tool to adjust the stimulus parameters might prove useful in the future - and you could help making this possible!
     - Topics/requirements: Stytra video display, PyQt GUI design
     
 **11. Implement you new Stytra experiment?**
