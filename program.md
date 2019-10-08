@@ -17,7 +17,7 @@
 
 List of potential projects, together with the topics they cover.
 
-1. DOCUMENTATION! Everywhere, from every team, and video recoding of detailed tracking instructions
+1. DOCUMENTATION! and video recoding of detailed tracking instructions
     - broad understanding of the commented code; acting akills for the video recording
 2. Automatic fish detection with Andreas' approach
     - Stytra core internals/tracking modules, neural networks (keras?)
