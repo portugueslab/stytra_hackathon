@@ -4,7 +4,9 @@ A bunch of useful references and introductions on the various topics that we tou
 **Version control:**
 
 **Object-oriented programming:**
-
+   [Intro guide 1](https://realpython.com/python3-object-oriented-programming/)
+   [Similar, a bit more terse, but a pandas-using example at the end](https://www.datacamp.com/community/tutorials/python-oop-tutorial)
+   [More comprehensive](https://python-textbok.readthedocs.io/en/1.0/Classes.html)
    [Jupyter notebook - intro on OOP](https://github.com/UofTCoders/studyGroup/blob/gh-pages/lessons/python/classes/Classes_in_Python.ipynb)
 
 **Documentation writing:**
