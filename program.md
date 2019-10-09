@@ -67,5 +67,13 @@ List of potential projects, together with the topics they cover.
    We still have some hope that the replay tool to adjust the stimulus parameters might prove useful in the future - and you could help making this possible!
     - Topics/requirements: Stytra video display, PyQt GUI design
     
-**11. Implement you new Stytra experiment?**
+**11. Improve structre of multiple session experiments (e.g. 2p)**
+  Right now there is no way of assinging completed experiments togehter except by putting things in a folder or looking at multiple metadata fields (fish id and experimenter id, not fully reliable). Also 2p experiments add hunderds of entries to the database (should be easy to fix)
+  - a bit of python and understanding Stytra strucutre
+  
+**12. Portugues Panopticon**
+  There is a MongoDB database where all experiments done with Stytra are recorded. A rudimentary interface built with Python/Flask exists, but is quite feature-poor and does not scale to current number of experiments. Building a new thing with modern web technologies with just a few features would be very useful
+  - python (one web framework, FastAPI recommended) and willingness to deal with Web technologies (HTML, CSS, Javascript)
+  
+**13. Implement you new Stytra experiment?**
 
