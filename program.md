@@ -6,6 +6,7 @@
   - GUI programming in Python - the PyQt library
   - Stytra nitty-gritties
   - Version control with github - a recap
+  - unit testing
  
  - **Day 2 - 3**: coding
  
@@ -24,13 +25,13 @@ List of potential projects, together with the topics they cover.
     
 **2. Automatic fish detection**
 
-   Andreas developed a (convolutional neural network-based) automatic fish features detector. It would be cool to use this approach to automatically place the ROI for the tail/eyes tracking
+   Andreas developed a (convolutional neural network-based) automatic fish features detector. It would be cool to use this approach to automatically place the ROI for the tail/eyes tracking. Crawling the J:/experiments folder should provide quite a lot of training data (an example notebook that extracts that exists)
     - Stytra core internals/tracking modules, neural networks (keras?)
     
 **3. Stimulus / experiment replay**
 
-   For some analyses (for example, event-triggered averaging such as the behavior receptive fields of Andreas' paper) it would be useful to have in stytra the possibility of "play back" exactly the stimulus that was shown during an experiment.
-    - Stytra core internals/stimulation modules
+   For some analyses (for example, event-triggered averaging such as the behavior receptive fields of Andreas' paper) it would be useful to have in stytra the possibility of "play back" exactly the stimulus that was shown during an experiment. Also, controlling randomness in expoeriments could enable some interesting analysis (e.g. if every run of the coherence experiment is exactly reproducible)
+    - Stytra core internals/stimulation modules. Approachable if you have written a few of your own stimuli.
 
 **4. Clean up names and coordinate systems**
 
@@ -39,31 +40,27 @@ List of potential projects, together with the topics they cover.
 
 **5. Experiment browser**
 
-   A little GUI that allows a user to open a folder with stytra experiments inside, have a look (and potentially fix) metadata,  load and overview data from the experiment and easily discard failed experiments. Ot should have already something to work with
+   A little GUI that allows a user to open a folder with stytra experiments inside, have a look (and potentially fix) metadata,  load and overview data from the experiment and easily discard failed experiments. Ot should have already something to work with. 
+   Three modules: for freely-swimming, eye-tracking and tail tracking should provide nice previews. Thinking about how to make a generic 1-D plot for protocol runs.
     - Python GUI design, Stytra metadata
 
 **6. Create full experiment movie**
-
    For explanatory purposes (presentations, supplementary materials, etc) it would be useful to have an easy way of generating little videos of the full experiment (live stimulus, camera video, and live traces for tail/eyes/position)
     - Stytra core internals, PyQt 
 
 **7. Parameters GUI improvements**
-
    Stytra parameter windows could help some fixes and improvements!
     - Stytra parameterization, lightparams library, PyQt GUI design
 
 **8. Angular units support**
-
    Is there a way of specifying stimulus dimensions in visual field angles instead of absolute screen centimeters? 
     - Stytra calibration, stimulation modules
 
 **9. Improve calibration user interface**
-
    The calibration procedure for the freely swimming fish could be made more intuitive, with step-by-step instructions on the GUI itself.
     - Stytra calibration, PyQt GUI design
 
 **10. Improve replay user interface**
-   
    We still have some hope that the replay tool to adjust the stimulus parameters might prove useful in the future - and you could help making this possible!
     - Topics/requirements: Stytra video display, PyQt GUI design
     
