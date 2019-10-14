@@ -8,8 +8,12 @@ https://dev.to/unseenwizzard/learn-git-concepts-not-commands-4gjc
 
 
 **Unit testing:**
+
+https://swcarpentry.github.io/python-novice-inflammation/08-defensive/index.html
+
 https://docs.pytest.org/en/latest/getting-started.html
-PyCharm
+
+PyCharm:
 https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html
 https://pytestguide.readthedocs.io/en/latest/pytestGuide/index.html
 
