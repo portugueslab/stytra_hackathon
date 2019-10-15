@@ -14,7 +14,7 @@ dependencies:
   - scikit-image
   - scikit-learn
   - matplotlib
-  - qt
+  - pyqt
   - opencv
   - h5py
   - av
