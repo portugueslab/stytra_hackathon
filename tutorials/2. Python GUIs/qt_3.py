@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (
     QSlider,
     QHBoxLayout,
     QPushButton,
+    QLabel,
 )
 import pyqtgraph as pg
 import numpy as np
@@ -15,7 +16,9 @@ import numpy as np
 class BigExample(QWidget):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.label_freq = QLabel("frequency")
         self.slider_freq = QSlider()  # Create a slider
+        self.slider_freq.setOrientation(Qt.Horizontal) # change the slider orientation
         self.plot = pg.PlotWidget()  # Create a plot
         self.plot_line = pg.PlotCurveItem()  # Create a plot line
         self.plot.addItem(self.plot_line)  # Add line to plot
