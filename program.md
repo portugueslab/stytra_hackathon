@@ -31,7 +31,7 @@ List of potential projects, together with the topics they cover.
    Andreas developed a (convolutional neural network-based) automatic fish features detector. It would be cool to use this approach to automatically place the ROI for the tail/eyes tracking. Crawling the J:/experiments folder should provide quite a lot of training data (an example notebook that extracts that exists)
     - Stytra core internals/tracking modules, neural networks (keras?)
     
-   People: Diego, You
+   People: Diego, (You)
     
     
 **3. Stimulus / experiment replay**
@@ -69,4 +69,4 @@ Create full user interface movie thorugh screen grabbing, calibration interface,
    Is there a way of specifying stimulus dimensions in visual field angles instead of absolute screen centimeters? 
     - Stytra calibration, stimulation modules
     
-   People: Kata
+   People: Kata, You
