@@ -18,18 +18,21 @@
 
 List of potential projects, together with the topics they cover.
 
+
 **1. Create new experiment / Documentation!**
    
    Parts of stytra are still quite un-documented and obscure and it would be important to fix this. Also, if would be very convenient to make little video tutorials for things like adjusting tracking parameters, calibrating, etc. The protocol class, protocol runner, and stimuli should have a more detailled introductory documentation, and the experience of starting a new experiment from scratch should be documented as well.
    
    People: Elena, Miguel
     
+ 
 **2. Automatic fish detection**
 
    Andreas developed a (convolutional neural network-based) automatic fish features detector. It would be cool to use this approach to automatically place the ROI for the tail/eyes tracking. Crawling the J:/experiments folder should provide quite a lot of training data (an example notebook that extracts that exists)
     - Stytra core internals/tracking modules, neural networks (keras?)
     
    People: Diego, You
+    
     
 **3. Stimulus / experiment replay**
 
@@ -38,12 +41,14 @@ List of potential projects, together with the topics they cover.
     
    People: Luigi, Vilim 
 
+
 **4. Clean up names and coordinate systems**
 
    There are still errors and inconsistencies in stytra reference frames of fish and stimuli, and stimuli attributes and arguments names. Making all of this more consistent would be very important.
     - Stytra stimulation and tracking modules
     
    People: Olga, Tugce
+
 
 **5. Experiment browser**
 
@@ -53,13 +58,15 @@ List of potential projects, together with the topics they cover.
     
    People: Ot 
 
+
 **6. Main GUI improvements** 
 Create full user interface movie thorugh screen grabbing, calibration interface, hardare / settings window (pool with 9)
     
    People: Hagar, Virginia
 
+
 **7. Coordinate system optimization**
    Is there a way of specifying stimulus dimensions in visual field angles instead of absolute screen centimeters? 
     - Stytra calibration, stimulation modules
     
-    People: Kata
+   People: Kata
